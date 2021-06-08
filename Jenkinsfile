@@ -7,7 +7,12 @@ pipeline{
 				sh "mvn clean install"
 			}
 		}
-	}
+		stage("Test"){
+			steps {
+				sh "Tesing..."
+				sh "mvn test"
+			
+		}
 
 	post {
 		always {
