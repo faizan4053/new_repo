@@ -11,6 +11,7 @@ pipeline{
 			steps {
 				echo "Tesing..."
 				sh "mvn test"
+			}
 			
 		}
 
